@@ -26,7 +26,20 @@ module.exports = {
 
   navLinks: [
     {
-      name: 'About',
+      name: 'const about = {
+  name: 'Mohit Yadav',
+  role: 'Full Stack Developer',
+  description: [
+    'I build clean and efficient web apps using PHP, JavaScript, and AI.',
+    'Passionate about creating smart community platforms and health solutions.',
+  ],
+  resume: 'https://linktoyourresume.pdf',
+  social: {
+    github: 'https://github.com/yourusername',
+    linkedin: 'https://linkedin.com/in/yourusername',
+  },
+};
+',
       url: '/#about',
     },
     {
@@ -35,7 +48,23 @@ module.exports = {
     },
     {
       name: 'Work',
-      url: '/#projects',
+      url: 'const projects = [
+  {
+    title: 'Smart Campus Management System',
+    description: 'A PHP-based platform for managing college tasks, attendance, events.',
+    tech: ['PHP', 'MySQL', 'HTML/CSS'],
+    github: 'https://github.com/yourusername/scms',
+    external: 'https://scms-demo.vercel.app',
+  },
+  {
+    title: 'Blood Donation Portal',
+    description: 'Help donors and patients find each other using geolocation.',
+    tech: ['HTML', 'PHP', 'SQL'],
+    github: 'https://github.com/yourusername/blood-donation',
+    external: 'https://blood-donate-demo.vercel.app',
+  },
+];
+',
     },
     {
       name: 'Contact',
